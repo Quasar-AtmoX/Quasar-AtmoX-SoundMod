@@ -1,6 +1,10 @@
 #!/sbin/sh
 
 echo " " >> /system/build.prop
+echo "## Quasar AtmoX™ Details ##" >> /system/build.prop
+echo "ro.quasar_atmox.version=3.0" >> /system/build.prop
+echo "ro.quasar_atmox.developer=nitesh9" >> /system/build.prop
+echo " " >> /system/build.prop
 echo "## ViPER|Audio™ ##" >> /system/build.prop
 echo " " >> /system/build.prop
 echo "audio.deep_buffer.media=false" >> /system/build.prop
