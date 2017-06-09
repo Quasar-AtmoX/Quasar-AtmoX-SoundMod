@@ -9,7 +9,6 @@ echo "tunnel.decode=false" >> /system/build.prop
 echo "tunnel.audiovideo.decode=false" >> /system/build.prop
 echo "lpa.releaselock=false" >> /system/build.prop
 echo "lpa.use-stagefright=false" >> /system/build.prop
-echo "persist.sys.media.use-awesome=1" >> /system/build.prop
 echo "af.resampler.quality=255" >> /system/build.prop
 echo "persist.af.resampler.quality=255" >> /system/build.prop
 echo "persist.dev.pm.dyn_samplingrate=1" >> /system/build.prop
