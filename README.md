@@ -12,12 +12,19 @@ It includes the best sound enhancement engines in one ultimate mod called Quasar
 Xperia™ Music + Sony Sound Enhancement
 -------------------------------------
 ClearAudio+
+
 Xperia™ Equalizer
+
 Dynamic normalizer
+
 Surround Sound (VPT) [Studio | Club | Concert Hall]
+
 Clear Stereo
+
 Clear Phase™
+
 xLOUD™ 
+
 S-Force Front Surround
 
 ![image](https://2.bp.blogspot.com/-kYJeyfIniZ0/V_jgpgdxD9I/AAAAAAAABa4/3qHLk5mP0GY9mA2HTrQfmalpH9LJFfbCgCLcB/s640/MUsic.jpg)
@@ -37,9 +44,13 @@ It is the ultimate sound control mod. QuasarAtmox™ includes the best and lates
 Quasar™ Additions
 -----------------
 Beats Audio™
-Dirac® Sound 
-Deep Buffer 
-Xtraa Bass + Optimized Audio 
+
+Dirac® Sound
+
+Deep Buffer
+
+Xtraa Bass + Optimized Audio
+ 
 Inter-compatibility with other AudioFX like CM AudioFX, MAXXAudio, MusicFX etc.
 
 ![image](https://2.bp.blogspot.com/-S_sXgogD_sA/WMajvw9FDJI/AAAAAAAABoA/2HBh-lWS3Y06KaVA2SJvSZZYNqIkOuxrgCLcB/s640/Quasar.jpg)
