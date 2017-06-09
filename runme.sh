@@ -11,13 +11,17 @@ echo "lpa.releaselock=false" >> /system/build.prop
 echo "lpa.use-stagefright=false" >> /system/build.prop
 echo "af.resampler.quality=255" >> /system/build.prop
 echo "persist.af.resampler.quality=255" >> /system/build.prop
+echo "af.resample=52000" >> /system/build.prop
+echo "persist.af.resample=52000" >> /system/build.prop
+echo "ro.audio.samplerate=6144000" >> /system/build.prop
 echo "persist.dev.pm.dyn_samplingrate=1" >> /system/build.prop
+echo "ro.audio.pcm.samplerate=6144000" >> /system/build.prop
 echo "ro.sound.driver=alsa" >> /system/build.prop
 echo "ro.sound.alsa=snd_pcm" >> /system/build.prop
 echo "AUDIODRIVER=alsa" >> /system/build.prop
 echo "ro.sound.driver=alsa" >> /system/build.prop
 echo "clock.allow_streaming_errors=false" >> /system/build.prop
-echo "default.pcm.rate_converter=samplerate_zero_order" >> /system/build.prop
+echo "default.pcm.rate_converter=samplerate_best" >> /system/build.prop
 echo "ro.ril.enable.amr.wideband=1" >> /system/build.prop
 echo " " >> /system/build.prop
 echo "# Dirac Audio" >> /system/build.prop
