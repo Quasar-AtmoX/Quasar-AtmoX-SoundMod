@@ -2,11 +2,10 @@
 #
 # www.osbusters.net
 #
-# This script should be flashed after ROM installation.
-# It will check for large apps in system and move it to data.
+# Quasar AtmoX™ SoundMod
 #
-# This will neither delete any app nor will it break its functionality
-# This will increase free space in system partition
+# This will backup important system files which will be modified by the mod.
+# And the backup will be restored when you will use the uninstaller
 #
 # AUTHOR: nitesh9 (Nitesh Prasad)
 #ui_print "##################################################### "
@@ -19,6 +18,12 @@ mount | grep " /data " || /sbin/mount /data >> ${outfile} 2>&1
 mount >> ${outfile} 2>&1
 df -h >> ${outfile} 2>&1
 echo "#####END mounting system and data" >> ${outfile} 2>&1
+
+# Run only when QuasarAtmoX is not installed
+if [ "`ro.quasar_atmox.developer=nitesh9 /system/build.prop`" ]; 
+then
+   :
+else
 
 # Create separate directories in /data
 mkdir -p "/data/quasar-atmox"
@@ -151,3 +156,5 @@ cp -f "/system/vendor/lib/libaudioalsa.so" "/data/quasar-atmox/backup/vendor/lib
 # Backup other folders
 cp -rf "/system/addon.d" "/data/quasar-atmox/backup/addon.d"
 cp -rf "/system/su.d" "/data/quasar-atmox/backup/su.d"
+
+fi
