@@ -2,7 +2,7 @@
 
 echo " " >> /system/build.prop
 echo "## Quasar AtmoX™ Details ##" >> /system/build.prop
-echo "ro.quasar_atmox.version=3.0" >> /system/build.prop
+echo "ro.quasar_atmox.version=4.0" >> /system/build.prop
 echo "ro.quasar_atmox.developer=nitesh9" >> /system/build.prop
 echo " " >> /system/build.prop
 echo "## ViPER|Audio™ ##" >> /system/build.prop
@@ -43,6 +43,27 @@ echo "#  EFFECT_CPSP      0x0020 (ClearPhase Speaker)" >> /system/build.prop
 echo "#  EFFECT_XLOUD     0x0040 (xLOUD)" >> /system/build.prop
 echo "#  EFFECT_CAPLUS    0x0080 (ClearAudio+)" >> /system/build.prop
 echo "#  EFFECT_SPBUNDLE  0x0100 (Speaker Bundle)" >> /system/build.prop
+echo "sony.support.effect=0x1FF" >> /system/build.prop
+echo "sony.support.effect=0x1FD" >> /system/build.prop
+echo "sony.support.effect=0x0" >> /system/build.prop
+echo "sony.support.effect=0x1" >> /system/build.prop
+echo "sony.support.effect=0x2" >> /system/build.prop
+echo "sony.support.effect=0x3" >> /system/build.prop
+echo "sony.support.effect=0x4" >> /system/build.prop
+echo "sony.support.effect=0x5" >> /system/build.prop
+echo "sony.support.effect=0x6" >> /system/build.prop
+echo "sony.support.effect=0x7" >> /system/build.prop
+echo "sony.support.effect=0x8" >> /system/build.prop
+echo "sony.support.effect=0x9" >> /system/build.prop
+echo "sony.support.effect=0x10" >> /system/build.prop
+echo "sony.support.effect=0x20" >> /system/build.prop
+echo "sony.support.effect=0x40" >> /system/build.prop
+echo "sony.support.effect=0x80" >> /system/build.prop
+echo "sony.support.effect=0x100" >> /system/build.prop
+echo "sony.support.effect=0x200" >> /system/build.prop
+echo "sony.support.effect=0x1008" >> /system/build.prop
+echo "sony.support.effect=0xa" >> /system/build.prop
+echo "sony.support.effect=0xb" >> /system/build.prop
 echo " " >> /system/build.prop
 echo "# Effect used by Speaker Bundle." >> /system/build.prop
 echo "# EFFECT_SF | EFFECT_CPSP | EFFECT_SPBUNDLE = 0x122" >> /system/build.prop
@@ -57,7 +78,6 @@ echo "# EFFECT_CA | EFFECT_VPT | EFFECT_CPSP | EFFECT_CAPLUS = 0x2B8" >> /system
 echo "sony.effect.custom.caplus_sp=0x2B8" >> /system/build.prop
 echo " " >> /system/build.prop
 echo "# Sound Enhancement Effects #" >> /system/build.prop
-echo "sony.support.effect=0x1FF" >> /system/build.prop
 echo "ro.semc.xloud.supported=true" >> /system/build.prop 
 echo "persist.service.xloud.enable=1" >> /system/build.prop
 echo "ro.semc.clearaudio.supported=true" >> /system/build.prop
@@ -78,6 +98,7 @@ echo "audio.offload.passthrough=false" >> /system/build.prop
 echo "ro.somc.ldac.audio.supported=true" >> /system/build.prop
 echo "sony.ahc.supported=yes" >> /system/build.prop
 echo "mpq.audio.decode=true" >> /system/build.prop
+echo "av.streaming.offload.enable=false" >> /system/build.prop
 echo "sony.support.effect=0x1FF" >> /system/build.prop
 echo "ro.semc.sound_effects_enabled=true" >> /system/build.prop
 echo "ro.semc.xloud.supported=true" >> /system/build.prop
