@@ -96,7 +96,6 @@ echo "audio.offload.multiple.enabled=true" >> /system/build.prop
 echo "audio.offload.gapless.enabled=true" >> /system/build.prop
 echo "audio.offload.passthrough=false" >> /system/build.prop
 echo "ro.somc.ldac.audio.supported=true" >> /system/build.prop
-echo "sony.ahc.supported=yes" >> /system/build.prop
 echo "mpq.audio.decode=true" >> /system/build.prop
 echo "av.streaming.offload.enable=false" >> /system/build.prop
 echo "sony.support.effect=0x1FF" >> /system/build.prop
